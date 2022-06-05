@@ -1,10 +1,9 @@
 #pragma once
 
-const int graphMaxSize = 10000;
+const int graphMaxSize = 44800;
 class Graph
 {
    bool graph[graphMaxSize][graphMaxSize] = {};
-   int a = 0;
    bool neighbors(int v1, int v2);
 public:
    int graphSize = 0;
